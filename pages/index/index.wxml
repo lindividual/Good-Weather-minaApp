@@ -1,0 +1,23 @@
+<!--index.wxml-->
+  <view class="container">
+  <view  bindtap="bindViewTap" class="city">
+    <text>{{city}}</text>
+  </view>
+  <view class="type">
+    <text>{{weatherType}}</text>
+  </view>
+  <view class="wendu">
+    <text>{{wenDu}}</text><text>°</text>
+  </view>
+  <scroll-view scroll-x='true'>
+    <view wx:for="{{weatherList}}" class="forecast">
+      <view class="forecast">
+        <text class="date">{{item.date}}</text>
+        <text class="type">{{item.type}}</text>
+        <text class="high">{{item.high}}</text>
+      </view>
+    </view>
+  </scroll-view>
+</view>
+
+

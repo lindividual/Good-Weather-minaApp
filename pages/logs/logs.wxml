@@ -1,0 +1,10 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <!--<block wx:for="{{logs}}" wx:for-item="log" wx:key="*this">
+    <text class="log-item">{{index + 1}}. {{log}}</text>
+  </block>-->
+  <view class="cityList">
+    <view class="city">深圳市</view>
+    <view class="city">东莞市</view>
+  </view>
+</view>

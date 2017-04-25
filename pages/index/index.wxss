@@ -1,0 +1,64 @@
+/**index.wxss**/
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 96rpx;
+  height: 50%;
+}
+
+.city {
+  font-size: 48rpx;
+}
+
+.type {
+  font-size: 40rpx;
+}
+
+.wendu {
+  font-size: 128rpx;
+}
+
+view {
+  padding-bottom: 16rpx;
+}
+
+.background {
+  background-color: #000;
+}
+
+page {
+  height: 100%;
+  /*background-color: #ffcf1f;*/
+}
+
+scroll-view {
+  height: 60%;
+  white-space: nowrap; 
+  /*display: flex*/
+}
+
+.forecast {
+  text-align: center;
+  display: inline-block;
+  width: 240rpx;
+  background-color: #eee;
+}
+
+.forecast text {
+  display: block;
+}
+
+.date {
+  font-size: 28rpx;
+  padding-top: 24rpx;
+  color: #666666;
+}
+
+.type {
+  font-size: 48rpx;
+  padding-top: 16rpx;
+}
+
+.high {
+  font-size: 28rpx;
+  padding-top: 16rpx;
+}
