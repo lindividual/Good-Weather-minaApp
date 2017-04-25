@@ -15,6 +15,7 @@
         <text class="date">{{item.date}}</text>
         <text class="type">{{item.type}}</text>
         <text class="high">{{item.high}}</text>
+        <text class="high">{{item.low}}</text>
       </view>
     </view>
   </scroll-view>

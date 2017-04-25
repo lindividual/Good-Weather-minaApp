@@ -31,7 +31,7 @@ page {
 }
 
 scroll-view {
-  height: 60%;
+  /*height: 60%;*/
   white-space: nowrap; 
   /*display: flex*/
 }
@@ -59,6 +59,6 @@ scroll-view {
 }
 
 .high {
-  font-size: 28rpx;
+  font-size: 24rpx;
   padding-top: 16rpx;
 }

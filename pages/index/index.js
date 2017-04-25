@@ -75,7 +75,8 @@ Page({
                   console.log(weatherType)
 
                   that.setData({
-                    'weatherList' : forecastList
+                    'weatherList' : forecastList,
+                    'weatherList[0].data': '今天'
                   })
 
                   console.log(forecastList)
